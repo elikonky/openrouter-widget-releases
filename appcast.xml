@@ -3,14 +3,14 @@
     <channel>
         <title>OpenRouterWidget</title>
         <item>
-            <title>1.0.10</title>
-            <pubDate>Mon, 02 Mar 2026 16:38:28 +0000</pubDate>
+            <title>1.0.11</title>
+            <pubDate>Mon, 02 Mar 2026 16:42:57 +0000</pubDate>
             <link>https://github.com/elikonky/openrouter-widget-releases/releases</link>
-            <sparkle:version>10</sparkle:version>
-            <sparkle:shortVersionString>1.0.10</sparkle:shortVersionString>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>1.0.11</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/elikonky/openrouter-widget-releases/releases/download/v1.0.10/OpenRouterWidget.dmg" length="1570682" type="application/octet-stream"/>
+            <enclosure url="https://github.com/elikonky/openrouter-widget-releases/releases/download/v1.0.11/OpenRouterWidget.dmg" length="1624172" type="application/octet-stream"/>
         </item>
     </channel>
 </rss>
