@@ -1,22 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- Appcast for OpenRouterWidget. Host at https://raw.githubusercontent.com/elikonky/openrouter-widget-releases/main/appcast.xml -->
-<!-- Run generate_appcast (from Sparkle package) to produce signed appcast from your release archives -->
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
-  <channel>
-    <title>OpenRouterWidget Changelog</title>
-    <link>https://github.com/elikonky/openrouter-widget-releases/releases</link>
-    <description>OpenRouterWidget update feed</description>
-    <language>en</language>
-    <item>
-      <title>Version 1.0.6</title>
-      <sparkle:releaseNotesLink>https://github.com/elikonky/openrouter-widget-releases/releases/tag/v1.0.6</sparkle:releaseNotesLink>
-      <pubDate>Mon, 02 Mar 2025 12:00:00 +0000</pubDate>
-      <enclosure url="https://github.com/elikonky/openrouter-widget-releases/releases/download/v1.0.6/OpenRouterWidget.dmg"
-                 sparkle:version="6"
-                 sparkle:shortVersionString="1.0.6"
-                 sparkle:edSignature="BASE64_SIGNATURE_FROM_GENERATE_APPCAST"
-                 length="1234567"
-                 type="application/octet-stream"/>
-    </item>
-  </channel>
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>OpenRouterWidget</title>
+        <item>
+            <title>1.0.10</title>
+            <pubDate>Mon, 02 Mar 2026 16:38:28 +0000</pubDate>
+            <link>https://github.com/elikonky/openrouter-widget-releases/releases</link>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>1.0.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/elikonky/openrouter-widget-releases/releases/download/v1.0.10/OpenRouterWidget.dmg" length="1570682" type="application/octet-stream"/>
+        </item>
+    </channel>
 </rss>
