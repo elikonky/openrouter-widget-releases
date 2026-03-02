@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Appcast for OpenRouterWidget. Host at https://raw.githubusercontent.com/elikonky/openrouter-widget-releases/main/appcast.xml -->
+<!-- Run generate_appcast (from Sparkle package) to produce signed appcast from your release archives -->
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>OpenRouterWidget Changelog</title>
+    <link>https://github.com/elikonky/openrouter-widget-releases/releases</link>
+    <description>OpenRouterWidget update feed</description>
+    <language>en</language>
+    <item>
+      <title>Version 1.0.6</title>
+      <sparkle:releaseNotesLink>https://github.com/elikonky/openrouter-widget-releases/releases/tag/v1.0.6</sparkle:releaseNotesLink>
+      <pubDate>Mon, 02 Mar 2025 12:00:00 +0000</pubDate>
+      <enclosure url="https://github.com/elikonky/openrouter-widget-releases/releases/download/v1.0.6/OpenRouterWidget.dmg"
+                 sparkle:version="6"
+                 sparkle:shortVersionString="1.0.6"
+                 sparkle:edSignature="BASE64_SIGNATURE_FROM_GENERATE_APPCAST"
+                 length="1234567"
+                 type="application/octet-stream"/>
+    </item>
+  </channel>
+</rss>
